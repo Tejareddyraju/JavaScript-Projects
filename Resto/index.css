@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(/UI_Jpg/Background2.png);
+    color: white;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 50px;
+    height: 70px;
+    align-items: center;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.links li{
+    font-size: 19px;
+    color: orange;
+}
+.logo{
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    gap: 35px;
+    color: black;
+}
+.icons i{
+    font-size: 25px;
+}
+.hero{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    align-items: start;
+    margin-top: 80px;
+}
+.left1{
+    font-style: italic;
+    font-size: 30px;
+}
+.left2{
+    font-size: 85px;
+    font-weight: 600;
+}
+.left3{
+    font-size: 27px;
+    font-style: italic;
+    color: orange;
+    margin-bottom: 15px;
+}
+.left4{
+    border: 2px solid wheat;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.food{
+    margin-top: 70px;
+    margin-left: 200px;
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+#food{
+    background: url(/UI_Jpg/food.png);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+.items{
+    display: flex;
+    gap: 20px;
+    padding-left: 150px;
+    margin-top: -140px;
+}
+#food1,#food2,#food3,#food4{
+    border: 2px solid orange;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#food1{
+    background: url(/UI_Jpg/food1.png);
+    background-size: cover;
+}
+#food2{
+    background: url(/UI_Jpg/food2.png);
+    background-size: cover;
+}
+#food3{
+    background: url(/UI_Jpg/food3.png);
+    background-size: cover;
+}
+#food4{
+    background: url(/UI_Jpg/food4.png);
+    background-size: cover;
+}

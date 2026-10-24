@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <nav class="navBar">
+        <h1 class="heading">Spent wise</h1>
+        <div class="links">
+            <ul class="link">
+                <li class="nav-links active">DashBoard</li>
+                <li class="nav-links">Transactions</li>
+                <li class="nav-links">billing</li>
+                <li class="nav-links">Settings</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="summary-card">
+        <div class="card">
+            <h3>Availabe Balance</h3>
+            <div id="balance">$25,000</div>
+        </div>
+        <div class="card">
+            <h3>Monthly Income</h3>
+            <div id="income">$30,000</div>
+        </div>
+        <div class="card">
+            <h3>Spends</h3>
+            <div id="expenses">$25,000</div>
+        </div>
+    </div>
+    <button id="addExpenseBtn">Add Today Spends</button>
+
+    <!-- Expense popup -->
+    <div id="expenseOverlay" class="hidden"></div>
+    <div id="expenseModal" class="hidden">
+        <h2>Add Today Expenses</h2>
+        <p>Enter amount you spent today!!</p>
+        <input type="number" placeholder="Enter your amount , such as ₹10 or ₹200">
+        <button type="button">Add another Expense</button>
+        <button type="button">Submit your Expenses</button>
+    </div>
+
+</body>
+<script src="index.js" defer></script>
+
+</html>
