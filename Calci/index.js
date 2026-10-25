@@ -5,7 +5,12 @@ function addToDisplay(valueByDisplay){
     display.value += valueByDisplay
 }
  function calculate(){
-    display.value = eval(display.value)
+    try{
+        display.value = eval(display.value)
+    }
+    catch{
+        display.value = 'Error'
+    }
  }
 clear.addEventListener("click",()=>{
     display.value = ''
